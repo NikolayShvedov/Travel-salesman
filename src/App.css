@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.right-panel {
+  width: 70%;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
