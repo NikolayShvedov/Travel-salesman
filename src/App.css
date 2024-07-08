@@ -6,7 +6,7 @@
 .left-panel {
   width: 30%;
   padding: 20px;
-  box-sizing: border-box;
+  background-color: #f9f9f9;
   overflow-y: auto;
 }
 
@@ -14,15 +14,108 @@
   width: 70%;
 }
 
-button {
-  display: block;
-  margin-top: 20px;
+h1, h2 {
+  color: #333;
 }
 
-h1, h2 {
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+button:hover:enabled {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+ul li button {
+  background-color: #dc3545;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+ul li button:hover {
+  background-color: #c82333;
+}
+
+/* Дополнительные стили для AddressInput */
+.address-input-container {
+  position: relative;
+}
+
+.address-input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   margin-bottom: 10px;
 }
 
-p {
-  margin: 5px 0;
+.address-input ul {
+  position: absolute;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+}
+
+.address-input li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.address-input li:hover {
+  background-color: #f0f0f0;
+}
+
+.mb-10 {
+  margin-bottom: 10px
 }

@@ -4,7 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 
 // URL вашей пользовательской иконки
-import customIconUrl from '../assets/custom-icon.png';
+import customIconUrl from '../../assets/custom-icon.png';
 
 // Создание пользовательской иконки
 const customIcon = new L.Icon({

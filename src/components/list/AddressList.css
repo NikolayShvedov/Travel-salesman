@@ -1,0 +1,38 @@
+.address-list {
+  margin-top: 20px;
+}
+
+.address-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.address-number {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.address-label {
+  flex-grow: 1;
+}
+
+.start-end-label {
+  font-style: italic;
+  color: gray;
+  margin-left: 10px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff1a1a;
+}

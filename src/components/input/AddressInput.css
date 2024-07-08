@@ -1,0 +1,35 @@
+.address-input-container {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .address-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .address-input ul {
+    position: absolute;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+  }
+  
+  .address-input li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .address-input li:hover {
+    background-color: #f0f0f0;
+  }
